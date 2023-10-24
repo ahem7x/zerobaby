@@ -1,0 +1,27 @@
+{
+  "name": "zerobaby",
+  "version": "1.0.0",
+  "description": "echo \"# zerobaby\" >> README.md git init git add . git commit -m \"first commit\" git branch -M main git remote add origin https://github.com/ahem7x/zerobaby.git Enter username and  personalised token git push -u origin main",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "test": "jest src/app.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahem7x/zerobaby.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahem7x/zerobaby/issues"
+  },
+  "homepage": "https://github.com/ahem7x/zerobaby#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  }
+}
