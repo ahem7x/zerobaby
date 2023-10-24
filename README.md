@@ -42,3 +42,25 @@ To https://github.com/ahem7x/zerobaby.git
 https://blog.logrocket.com/ci-cd-node-js-github-actions/
 
 
+Make changes to the code in the local repo and make changes to the readme in the main through GitHub UI.
+
+You to have rebase before pushing the code.
+
+ahem@devx:~/gitz/zerobaby$ git pull origin --rebase
+Successfully rebased and updated refs/heads/main.
+ahem@devx:~/gitz/zerobaby$ git push -u origin main
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (11/11), 77.99 KiB | 13.00 MiB/s, done.
+Total 11 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ahem7x/zerobaby.git
+   a4b93d2..95b0f8e  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+ahem@devx:~/gitz/zerobaby$ 
+
+
+
+
+
